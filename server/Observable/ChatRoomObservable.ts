@@ -1,5 +1,5 @@
 import IObservable from "./ObservableInterface";
-import IObserver from "../Observer/ObserverInterface";
+import IObserver from ".././Observer/ObserverInterface";
 
 export default class ChatRoomObservable implements IObservable {
     observerList: IObserver[];

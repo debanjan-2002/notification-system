@@ -1,4 +1,4 @@
-import IObserver from "../Observer/ObserverInterface";
+import IObserver from ".././Observer/ObserverInterface";
 
 export default interface IObservable {
     add(observer: IObserver): void;
